@@ -4,7 +4,6 @@ const app = express();
 
 app.use("/",(req,res)=>{
     res.send("hello from server")
-    
 })
 
 
